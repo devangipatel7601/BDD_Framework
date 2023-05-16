@@ -109,7 +109,7 @@ public class Utils extends BasePage{
     }
 
     public static String getWindowHandle() {
-        return getWindowHandle();
+        return driver.getWindowHandle();
     }
 
     public static String currentTimeStamp() {

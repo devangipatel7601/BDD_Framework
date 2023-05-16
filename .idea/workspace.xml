@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36493965-2fc4-40eb-9084-5dbaa5d05dd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/referProductToFriend.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testConfig/TestData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testConfig/TestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testConfig/TestData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

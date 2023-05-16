@@ -32,11 +32,22 @@ public class ProductPage extends Utils{
 
         String actualmessage = getTextFromElement(_sendEmailMessage);
 
-        //to print sent messase
+        //to print sent message
         System.out.println("my message: " +actualmessage);
 
         Assert.assertEquals(actualmessage,loadProp.getProperty("sent_Email_Message"));
 
+
+    }
+    public void verifyProductPage(){
+        String productpageURL = getCurrentURL();
+
+        Assert.assertEquals(productpageURL,loadProp.getProperty("productpage_URL"));
+    }
+    public void verifyEmailAFriendPage(){
+        String emailAFriendPageURL=getCurrentURL();
+
+        Assert.assertEquals(emailAFriendPageURL,loadProp.getProperty("emailAFriendPage_URL"));
 
     }
 }

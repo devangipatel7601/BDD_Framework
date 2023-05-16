@@ -22,6 +22,7 @@ public class MyStepdefs {
     }
     @Then("I should able to register successfully")
     public void i_should_able_to_register_successfully() {
+
         registrationResultPage.verifyUserRegisteredSuccessfully();
     }
     @Given("I am a registered user")
@@ -39,6 +40,7 @@ public class MyStepdefs {
     }
     @Given("I am on homepage")
     public void i_am_on_homepage() {
+        homePage.verifyHomePage();
 
 
     }
@@ -49,6 +51,7 @@ public class MyStepdefs {
     }
     @When("I am on product page")
     public void i_am_on_product_page() {
+        productPage.verifyProductPage();
 
 
     }
@@ -60,6 +63,7 @@ public class MyStepdefs {
     }
     @Then("Email a friend page should appear")
     public void email_a_friend_page_should_appear() {
+        productPage.verifyEmailAFriendPage();
 
     }
     @Then("I enter required Email a friend details")

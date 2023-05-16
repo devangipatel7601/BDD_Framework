@@ -1,6 +1,7 @@
 package org.example;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 public class HomePage extends Utils{
     private By _registerButton = By.cssSelector("a.ico-register");
@@ -21,5 +22,10 @@ public class HomePage extends Utils{
         //click on log in button
         clickOnElement(_loginButton);
 
+    }
+    public void verifyHomePage(){
+        String homepageURL = getCurrentURL();
+
+        Assert.assertEquals(homepageURL,loadProp.getProperty("url"));
     }
 }
