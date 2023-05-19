@@ -24,6 +24,7 @@ public class HomePage extends Utils{
 
     }
     public void verifyHomePage(){
+
         String homepageURL = getCurrentURL();
 
         Assert.assertEquals(homepageURL,loadProp.getProperty("url"));

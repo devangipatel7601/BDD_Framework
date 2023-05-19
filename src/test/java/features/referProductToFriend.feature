@@ -11,4 +11,4 @@
       Then Email a friend page should appear
       And I enter required Email a friend details
       And I click on send email button
-      Then "Your message has been sent" should be seen successfully.
+      Then "Your message has been sent." should be seen successfully.

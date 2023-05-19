@@ -15,5 +15,6 @@ public class RegistrationResultPage extends Utils{
 
         //to verify actual and expected result matched or not
         Assert.assertEquals(actualmessage,loadProp.getProperty("registration_Complete_Message"));
+
     }
 }
